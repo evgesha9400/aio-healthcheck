@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aio-healthcheck-python"
+version = "0.1.0"
+description = "A simple healthcheck using aiohttp"
+authors = ["Evgeny Aleshin"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
